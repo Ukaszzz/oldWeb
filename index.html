@@ -14,6 +14,16 @@
       rel="stylesheet"
     />
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+   
+    
+    
+
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -23,6 +33,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+
     <div class="smallMenu">
       <span class="fas fa-bars smallMenu__first"></span>
       <i class="fas fa-times smallMenu__second"></i>
@@ -30,25 +41,26 @@
     <section class="head">
       <menu class="menu">
         <nav class="menu__navigation">
-          <button class="menu__portfoli">Portfolio</button>
           <button class="menu__me">o mnie</button>
-          <button class="menu__offer">Zainteresowania</button>
+          <button class="menu__offer">umiejętności</button>
+          <button class="menu__portfoli">portfolio</button>
+
           <button class="menu__contact">Kontakt</button>
         </nav>
       </menu>
       <h1 class="head__line">
         <hr />
-        WELCOME
+        <p>WELCOME</p>
         <hr />
       </h1>
       <h2 class="head__h2">IN MY WORLD</h2>
       <div>
-        <button class="head__but">portfolio</button>
-        <button class="head__but">kontakt</button>
+        <button class="head__but head__portfolio">portfolio</button>
+        <button class="head__but head__kontakt">kontakt</button>
       </div>
     </section>
     <section class="aboutMe">
-      <img class="aboutMe__img" src="" alt="" srcset="" />
+      <img class="aboutMe__img" src="img/ZołaŁukasz.jpg" alt="" srcset="" />
 
       <div class="aboutMe__wrap">
         <h1>Czesc nazywam się Łukasz, moją pasją są technologie front-end</h1>
@@ -66,60 +78,79 @@
     <section class="skills">
       <div class="skills__part">
         <img
-          src="img/kisspng-html-web-development-world-wide-web-consortium-jav-5-5aec37d6378831.3360555915254302302275.png"
+          src="img/html.png"
           alt=""
           srcset=""
         />
-        <h1>znajomosc HTML</h1>
-        <p>
-          Znajomość budowy struktury dokumentu HTML, umiejętność stosowania
-          semantycznych znaczników
-        </p>
+        <h1>HTML</h1>
       </div>
       <div class="skills__part">
         <img
-          src="img/kisspng-css3-cascading-style-sheets-logo-html-beautify-5ae0bb6f802b43.421174781524677487525.png"
+          src="img/css.png"
           alt=""
           srcset=""
         />
-        <h1>znajomosc CSS</h1>
-        <p>
-          Płynne poruszanie się w CSS, brak trudności przy tworzeniu szablonów
-          Responsive Web Design, umiejętność wykorzystania preprocessora CSS
-          (Sass), znajomość flex box, podstawowe poczucie estetyki, kreatywność
-          w tworzeniu
-        </p>
+        <h1>CSS</h1>
       </div>
       <div class="skills__part">
         <img
-          src="img/kisspng-javascript-logo-html-comment-python-15-5aebb97051cb22.8683046015253978723351.png"
+          src="img/js.png"
           alt=""
           srcset=""
         />
-        <h1>znajomosc JavaScript</h1>
-        <p>
-          Znajomość mechanizmów JavaScript takich jak: hoisting, domknięcia,
-          zakres zmiennych (scope), znajomość programowania funkcyjnego,
-          znajomość programowania obiektowego i dziedziczenia prototypowego,
-          umiejętność operowania na tablicach w JavaScript, manipulacja drzewem
-          DOM, znajomość ES6,
-        </p>
+        <h1>JavaScript</h1>
       </div>
       <div class="skills__part">
         <img
-          src="img/kisspng-react-javascript-angularjs-ionic-atom-5b154be6947457.3471941815281223426081.png"
+          src="img/react.png"
           alt=""
           srcset=""
         />
-        <h1>znajomosc REACT</h1>
-        <p>
-          Podstawowa znajomość menadżera zarządzania stanem - redux, umiejętność
-          zarządzania stanem formularza z redux form, umiejętność pobierania
-          danych z zewnętrznego API, Tworzenie Single Page Application z
-          wykorzystaniem React - Router, znajomość biblioteki CSS in JS - Styled
-          Components, bezproblemowe korzystanie z menadżera paczek npm
-        </p>
+        <h1>REACT</h1>
       </div>
+      <div class="skills__part">
+        <img
+          src="img/scss.png"
+          alt=""
+          srcset=""
+        />
+        <h1>SCSS</h1>
+      </div>
+      <div class="skills__part">
+        <img
+          src="img/nom.png"
+          alt=""
+          srcset=""
+        />
+        <h1>npm</h1>
+      </div>
+    </div>
+  </div>
+  <div class="skills__part">
+    <img
+      src="img/webpack.png"
+      alt=""
+      srcset=""
+    />
+    <h1>Webpack</h1>
+  </div>
+</div>
+<div class="skills__part">
+  <img
+    src="img/git.png"
+    alt=""
+    srcset=""
+  />
+  <h1>Git</h1>
+</div>
+    <div class="skills__part">
+      <img
+        src="img/gimp.png"
+        alt=""
+        srcset=""
+      />
+      <h1>GIMP</h1>
+    </div>
     </section>
     <section class="projects">
       <div class="projects__one">
@@ -130,7 +161,7 @@
             Stona wizytówka wykonana dla firmy Fat Bear. firmy oferującej usługi
             gastronomiczne
           </p>
-          <p>Strona internetowa wykonana w HTML5, CSS3 oraz JavaScript</p>
+          <p>HTML5, CSS3 oraz JavaScript</p>
         </div>
       </div>
       <div class="projects__one">
@@ -142,7 +173,7 @@
             drugiej osoby spełnia koputer. A czy Ty jesteś wstanie wygrać z
             maszyną ?
           </p>
-          <p>Strona internetowa wykonana w HTML5, CSS3 oraz JavaScript</p>
+          <p>HTML5, CSS3 oraz JavaScript</p>
         </div>
       </div>
 
@@ -154,7 +185,17 @@
             Prosta gra logiczna memory, która rozwija pamięć, spostrzegawczość
             oraz refleks
           </p>
-          <p>Strona internetowa wykonana w HTML5, CSS3 oraz JavaScript</p>
+          <p>HTML5, CSS3 oraz JavaScript</p>
+        </div>
+      </div>
+      <div class="projects__one">
+        <img src="img/list.jpg" alt="" />
+        <div>
+          <h1>To do list</h1>
+          <p>
+            Aplikacja do zapisywania rzeczy do zrobienia
+          </p>
+          <p>HTML5, CSS3 oraz JavaScript</p>
         </div>
       </div>
     </section>
@@ -163,17 +204,16 @@
       <div class="contacts__wrap ">
         <div class="contacts__socials">
           <div class="social ">
-            <img src="img/contact1.png" alt="kontakt" /><span
-              >zolalukas@gmail.com</span
-            >
+            <img src="img/contact1.png" alt="kontakt" />
+            <p>zolalukas@gmail.com</p>
           </div>
           <div class="social ">
-            <img src="img/contact2.png" alt="kontakt" /><span>886 079 125</span>
+            <img src="img/contact2.png" alt="kontakt" />
+            <p>886 079 125</p>
           </div>
           <div class="social ">
-            <img src="img/contact5.png" alt="kontakt" /><span
-              >/in/łukasz-zoła</span
-            >
+            <img src="img/contact5.png" alt="kontakt" />
+            <p>/in/łukasz-zoła</p>
           </div>
         </div>
       </div>
@@ -181,7 +221,11 @@
     <footer class="footer">
       &copy; Łukasz Zoła
     </footer>
+   <div class="backButton"><button class="back"><i class="fas fa-angle-double-up"></i>
 
+
+
+        </button></div>
     <script src="main.js"></script>
   </body>
 </html>
